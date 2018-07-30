@@ -7,7 +7,8 @@ import { MatIconRegistry } from '../../node_modules/@angular/material'
   template: `
     <mat-toolbar color="primary" fxLayoutGap="8px">
       <button mat-icon-button><mat-icon>menu</mat-icon></button>
-      <a mat-icon-button routerLink="/home"><mat-icon svgIcon="lemon"></mat-icon><span class="mat-h2">LemonMart</span></a>
+      <a mat-icon-button routerLink="/home"><mat-icon svgIcon="lemon"></mat-icon>
+      <span class="mat-h2">LemonMart</span></a>
       <span class="flex-spacer"></span>
       <button mat-icon-button><mat-icon>account_circle</mat-icon></button>
       <button mat-icon-button><mat-icon>lock_open</mat-icon></button>
