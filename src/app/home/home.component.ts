@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core'
   styles: [
     `
       div[fxLayout] {
-        margin-top: 32px;
+        margin-top: 62px;
       }
     `,
   ],
