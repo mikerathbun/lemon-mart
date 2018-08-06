@@ -5,13 +5,14 @@ import { MatIconRegistry } from '../../node_modules/@angular/material'
 @Component({
   selector: 'app-root',
   template: `
-    <mat-toolbar color="primary" fxLayoutGap="8px">
+    <mat-toolbar color="primary">
       <button mat-icon-button><mat-icon>menu</mat-icon></button>
-      <a mat-icon-button routerLink="/home"><mat-icon svgIcon="lemon"></mat-icon><span class="mat-h2">LemonMart</span></a>
+      <mat-icon svgIcon="lemon"></mat-icon>
+      <a mat-button routerLink="/home"><h1>LemonMart</h1></a>
       <span class="flex-spacer"></span>
       <button mat-icon-button><mat-icon>account_circle</mat-icon></button>
       <button mat-icon-button><mat-icon>lock_open</mat-icon></button>
-    </mat-toolbar>
+  </mat-toolbar>
     <router-outlet></router-outlet>
   `,
 })
